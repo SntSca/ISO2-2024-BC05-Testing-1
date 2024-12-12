@@ -11,5 +11,5 @@
 
 | Nombre   |
 |----------|
-| Carlota  👩‍🎓 |
-| Santiago 👨‍🎓 |
+| Carlota Moreno Tirado  👩‍🎓 |
+| Santiago Sánchez-Celemín Arévalo👨‍🎓 |
