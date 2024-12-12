@@ -11,5 +11,5 @@
 
 | Nombre   |
 |----------|
-| Carlota Moreno Tirado  👩‍🎓 |
+| Jorge Rodríguez Turrillo  👩‍🎓 |
 | Santiago Sánchez-Celemín Arévalo👨‍🎓 |
