@@ -1,4 +1,4 @@
-package com.trabajoTeorico2.persona;
+
 
 import java.time.LocalDate;
 

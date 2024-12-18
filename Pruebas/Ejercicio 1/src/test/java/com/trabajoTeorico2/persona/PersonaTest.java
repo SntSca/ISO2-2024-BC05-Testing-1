@@ -7,8 +7,8 @@ import java.time.LocalDate;
 public class PersonaTest {
 
 	@Test
-	public void testEsElegibleParaMatricularse() {
-	    // Persona que cumple todos los requisitos
+	public static void testEsElegibleParaMatricularse() {
+	    // Persona Perfecta
 	    Persona persona1 = new Persona();
 	    persona1.setFechaNacimiento(LocalDate.of(2000, 1, 1));
 	    persona1.setTitulacion("Máster");
@@ -17,19 +17,19 @@ public class PersonaTest {
 	    persona1.setCorreoElectronico("juan@example.com");
 	    assertTrue(persona1.esElegibleParaMatricularse(), "La persona debería ser elegible para matricularse en el doctorado.");
 
-	    // Persona menor de 18 años
+	    // Persona menor de 18 años 
 	    Persona persona2 = new Persona();
-	    persona2.setFechaNacimiento(LocalDate.of(2010, 1, 1)); // Menor de 18 años
+	    persona2.setFechaNacimiento(LocalDate.of(2010, 1, 1));
 	    persona2.setTitulacion("Máster");
 	    persona2.setNacionalidad("España");
 	    persona2.setNumeroTelefono("612345678");
 	    persona2.setCorreoElectronico("juan@example.com");
 	    assertFalse(persona2.esElegibleParaMatricularse(), "La persona no debería ser elegible debido a ser menor de edad.");
 
-	    // Persona con titulación no válida
+	    // Persona con titulación incorrecta
 	    Persona persona3 = new Persona();
 	    persona3.setFechaNacimiento(LocalDate.of(2000, 1, 1));
-	    persona3.setTitulacion("Licenciatura");
+	    persona3.setTitulacion("Licenciatura"); 
 	    persona3.setNacionalidad("España");
 	    persona3.setNumeroTelefono("612345678");
 	    persona3.setCorreoElectronico("juan@example.com");
@@ -44,7 +44,7 @@ public class PersonaTest {
 	    persona4.setCorreoElectronico("juan@example.com");
 	    assertFalse(persona4.esElegibleParaMatricularse(), "La persona no debería ser elegible debido a que no es europea.");
 
-	    // Persona con número de teléfono Incorrecto
+	    // Persona con número de teléfono incorrecto
 	    Persona persona5 = new Persona();
 	    persona5.setFechaNacimiento(LocalDate.of(2000, 1, 1));
 	    persona5.setTitulacion("Máster");
@@ -53,7 +53,7 @@ public class PersonaTest {
 	    persona5.setCorreoElectronico("juan@example.com");
 	    assertFalse(persona5.esElegibleParaMatricularse(), "La persona no debería ser elegible debido al número de teléfono inválido.");
 
-	    // Persona con correo electrónico Incorrecto
+	    // Persona con correo electrónico incorrecto
 	    Persona persona6 = new Persona();
 	    persona6.setFechaNacimiento(LocalDate.of(2000, 1, 1));
 	    persona6.setTitulacion("Máster");
@@ -61,6 +61,9 @@ public class PersonaTest {
 	    persona6.setNumeroTelefono("612345678");
 	    persona6.setCorreoElectronico("juan@com");
 	    assertFalse(persona6.esElegibleParaMatricularse(), "La persona no debería ser elegible debido al correo electrónico inválido.");
+	
+	
 	}
+	
 
 }

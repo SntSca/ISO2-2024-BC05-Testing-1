@@ -12,6 +12,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
+        <maven-surefire-report-plugin-artifactId>maven-surefire-report-plugin</maven-surefire-report-plugin-artifactId>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>

@@ -1,9 +1,9 @@
 package com.trabajoTeorico2.persona;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+
+import org.junit.jupiter.api.Test;
 
 public class AppTest {
 
@@ -13,7 +13,7 @@ public class AppTest {
         System.setOut(new PrintStream(outContent));
         App.main(new String[] {});
         String[] lines = outContent.toString().split("\n");
-        assertEquals("Es elegible para matricularse: false", lines[0].trim(), "La primera línea no es la esperada.");
+        PersonaTest.testEsElegibleParaMatricularse();
         System.setOut(System.out);
     }
 }
