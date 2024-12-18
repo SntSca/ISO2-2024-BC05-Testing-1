@@ -13,3 +13,7 @@
 |----------|
 | Jorge Rodríguez Turrillo  👩‍🎓 |
 | Santiago Sánchez-Celemín Arévalo👨‍🎓 |
+
+## Nota
+
+* La información respectiva a la cobertura y expliación de como he obtenido dichas coberturas.
