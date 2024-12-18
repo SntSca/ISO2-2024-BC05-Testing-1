@@ -16,4 +16,4 @@
 
 ## Nota
 
-* La información respectiva a la cobertura y expliación de como he obtenido dichas coberturas.
+* La información respectiva a la cobertura y expliación de como he obtenido dichas coberturas se encuentra en la Wiki del repositorio.
